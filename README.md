@@ -1,6 +1,6 @@
 # Hybrid GNN for Medical Imaging
 
-Hybrid deep learning models that combine a **ResNet50** convolutional image branch with a **Graph Isomorphism Network (GIN)** branch for multimodal medical image classification. The image branch learns visual features from scans, while the graph branch models relationships between tabular/clinical features, and the two are fused before the final classifier.
+Hybrid deep learning models that combine a **ResNet50** convolutional image branch with a **Graph Isomorphism Network (GIN)** branch for multimodal medical image classification. The image branch learns visual features from scans, while the graph branch models relationships among tabular/clinical features, and the two fuse before the final classifier.
 
 This repository contains two experiments on two different datasets:
 
